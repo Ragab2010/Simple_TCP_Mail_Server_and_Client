@@ -40,7 +40,6 @@ The Simple Mail Server is a lightweight TCP-based server application designed to
     ```bash
     cd server
     mkdir build && cd build
-    cmake .. -DCMAKE_CXX_STANDARD=17
     make
     ```
 3. **Run the Server**: `./server`
@@ -73,12 +72,11 @@ The Simple Mail Client is a command-line client application designed to interact
 - **JsonHandler**: Serializes and deserializes JSON data for communication with the server.
 
 ### Usage
-1. **Clone the Repository**: `git clone <repository-url>`
+1. **Clone the Repository**: `git clone https://github.com/Ragab2010/Simple_TCP_Mail_Server_and_Client.git`
 2. **Build the Client**:
     ```bash
     cd client
     mkdir build && cd build
-    cmake .. 
     make
     ```
 3. **Run the Client**: `./client <username>`
