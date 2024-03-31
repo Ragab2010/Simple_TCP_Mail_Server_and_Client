@@ -1,6 +1,11 @@
 # Simple Mail Server and Client
 
+# Simple Mail Server and Client
+
 This repository contains a simple mail server and client applications implemented in C++. The server handles basic email functionalities such as sending, retrieving sent messages, and retrieving received messages, while the client allows users to interact with the server.
+
+Both the server applications utilize an SQLite database for storing messages.
+
 
 ## Table of Contents
 
