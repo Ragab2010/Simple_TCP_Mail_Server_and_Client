@@ -35,7 +35,7 @@ The Simple Mail Server is a lightweight TCP-based server application designed to
 - **JsonHandler**: Serializes and deserializes JSON data for communication.
 
 ### Usage
-1. **Clone the Repository**: `git clone <repository-url>`
+1. **Clone the Repository**: `git clone https://github.com/Ragab2010/Simple_TCP_Mail_Server_and_Client.git`
 2. **Build the Server**:
     ```bash
     cd server
