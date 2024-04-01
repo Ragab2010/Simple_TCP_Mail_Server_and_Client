@@ -4,7 +4,7 @@
 
 This repository contains a simple mail server and client applications implemented in C++. The server handles basic email functionalities such as sending, retrieving sent messages, and retrieving received messages, while the client allows users to interact with the server.
 
-Both the server applications utilize an SQLite database for storing messages.
+the server applications utilize an SQLite database for storing messages.
 
 
 ## Table of Contents
@@ -45,6 +45,7 @@ The Simple Mail Server is a lightweight TCP-based server application designed to
     ```bash
     cd server
     mkdir build && cd build
+    cmake ..
     make
     ```
 3. **Run the Server**: `./server`
@@ -82,6 +83,7 @@ The Simple Mail Client is a command-line client application designed to interact
     ```bash
     cd client
     mkdir build && cd build
+    cmake ..
     make
     ```
 3. **Run the Client**: `./client <username>`
